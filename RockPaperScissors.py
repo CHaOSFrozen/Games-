@@ -5,7 +5,7 @@ import random
 user_input = input("Enter a choice from rock, paper and scissors: ")
 actions = ["rock", "paper", "scissors"]
 # Randomises the action by the AI
-AI_action = random.choice(possible_actions)
+AI_action = random.choice(actions)
 # Prints the User Input and AI Input
 print(f"\nYou chose {user_input}, AI choses {AI_action}.\n")
 
